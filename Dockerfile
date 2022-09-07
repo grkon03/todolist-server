@@ -11,5 +11,3 @@ RUN GO111MODULE=off go get -u github.com/oxequa/realize
 
 # wait for sql
 ENTRYPOINT dockerize -timeout 60s -wait tcp://sql:3306 realize start
-
-RUN go run main.go

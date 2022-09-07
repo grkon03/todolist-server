@@ -19,3 +19,6 @@ sql/data
 # vscode settings
 .vscode
 todolist-server.code-workspace
+
+# apps
+app/app
